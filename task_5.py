@@ -9,5 +9,3 @@ while num >= 0:
     my_list.insert(el, num)
     print(f"Пользователь ввёл число {num}. Результат: {my_list}")
     num = int(input("Введите число: "))
-
-
