@@ -1,4 +1,10 @@
-name = input("Введите ваше имя: ")
-password = input("Введите ваш пароль: ")
-age = int(input("Введите ваш возраст: "))
-print("Ваши данные для входа в аккаунт: имя -", name, "пароль -", password, "возраст -", age)
+from sys import argv
+
+name, time, salary, extra = argv
+
+time = int(time)
+salary = int(salary)
+extra = int(extra)
+
+res = (time * salary) + extra
+print(f'Заработная плата сотрудника - {res}')
