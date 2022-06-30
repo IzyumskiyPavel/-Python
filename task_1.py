@@ -9,3 +9,4 @@ try:
 
 except ZeroDivisionError:
     print("На ноль делить нельзя!")
+    
