@@ -12,13 +12,3 @@ def my_func(my_sum):
         my_func(my_sum)
 
 my_func(0)
-
-
-
-
-
-
-
-
-
-
